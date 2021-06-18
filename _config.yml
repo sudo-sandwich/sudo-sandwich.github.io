@@ -107,7 +107,38 @@ content:
         quote: >
           Creating Minecraft Marketplace content for a large Minecraft Partner.
         description: | # this will include new lines to allow paragraphs
-          asdf
+          Shapescape is one of the larger Minecraft Partners, with several branches dedicated to level design, gameplay, post production, etc.. When I started at Shapescape I actually knew next to nothing about minecraft development. I quickly picked it up and began writing Bedrock.NET on the side because of my frustrations with Minecraft. Eventually, I was the lead dev on Craftable Furniture, Shapescape's highest grossing addon at the time.
+      
+          - Worked as the sole developer on most projects.
+          - Collaborated with model makers, texture artists, sound designers, and other non-devs.
+          - Learned how to work with undocumented systems.
+          - Developed and documented tools to automate tasks for other developers, most of which are still in use.
+      - layout: left
+        title: Starfish Studios
+        link: https://twitter.com/starfishstudios
+        sub_title: Gameplay Developer
+        caption: December 2020 - present
+        quote: >
+          Creating Minecraft Marketplace content for a small Minecraft Partner.
+        description: |
+          Starfish Studios is a much smaller company than Shapescape, which presented me with a set of challenges I had not yet experienced at Shapescape. 
+
+          - Participated in the iterative design process of most addons.
+          - Merged multiple projects into a single, unified product.
+          - Set up Gitlab for the entire company.
+
+      - layout: left
+        title: Tsunami Studios
+        sub_title: Gameplay Developer
+        caption: February 2021 - present
+        quote: >
+          Creating Minecraft Marketplace content for a team consisting of three people.
+        description: |
+          A friend of mine wanted to try his hand at the Minecraft Marketplace so I am currently his sole dev. He is doing the level design, I am doing the gameplay design, and we have a modeller doing everything else.
+
+          - Discussed design and scope before projects even started.
+          - Coordinated required resources for projects.
+          - Interviewed possible new hires for the company.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
