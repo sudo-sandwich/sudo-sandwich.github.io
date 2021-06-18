@@ -6,34 +6,34 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
+name: Conrad Lusk
 title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+email: luskconrad@gmail.com
+website: www.github.com/sudo-sandwich
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: facespics
+github_username:  sudo-sandwich
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+# instagram_username: jameswgrant
+# linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# additional_links:
+# - title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,43 +48,66 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name's Conrad and I'm a software developer, with a primary interest in game development. I am currently a student. I taught myself almost everything I know about computer science well before I began college, starting with Game Maker 7 when I was in elementary school.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I have worked with several Minecraft Marketplace creators as the primary dev on multiple projects, where I learned leadership and communication skills. During my time working on Minecraft Marketplace content I developed a C# library that automates much of the workload, which is still in active development today.
+
+  I am most skilled in C#.
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: Bedrock.NET
+        link: https://github.com/sudo-sandwich/Bedrock.NET
         # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+        # additional_links:
+          # - title:  Bedrock.NET
+            # icon: fab fa-github
+            # url: https://github.com/sudo-sandwich/Bedrock.NET
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Automate many aspects of Minecraft addon creation.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          I started this project during a fit of rage while learning how to create Minecraft addons. A lot of the design decisions made for Bedrock's component based system seemed pretty were irritating to work with, which prompted me to create this library so I wouldn't have to deal with it. Most of my Minecraft development happens with Bedrock.NET and it has grown to a point where multiple developers and studios are using it. There have been 5 projects released on the marketplace either fully or partially developed using Bedrock.NET, with several more nearing the end of development.
+      - layout: top-middle
+        title: BSP Dungeon Generator
+        link: https://github.com/sudo-sandwich/BSPDungeonGenerator
+        quote: >
+          Generate a 2d dungeon using binary space partitioning!
+        description: |
+          A unity project that generates a very simple 2d dungeon using binary space partitioning to determine the room layout.
+      - layout: top-middle
+        title: Lacks Skill
+        link: https://github.com/sudo-sandwich/Lacks-Skill
+        quote: >
+          Kick unprepared players from your One Down Death Sentence Payday 2 lobby.
+        description: |
+          If you've ever played Payday 2 on the highest difficulty you know it's not for the faint of heart. There are a couple skills on the skill tree that are an absolute requirement and new players will sometimes join high difficulty lobbies without realizing what they've signed themselves up for. This mod quickly checks the skill tree of any player that joins and kicks players who are missing certain skills.
+      - layout: top-middle
+        title: RGBLighting
+        link: https://github.com/sudo-sandwich/RGBLighting
+        quote: >
+          Synchronize RGB effects for G.Skill TridentZ RAM and Corsair Lighting Node Pro.
+        description: |
+          Since every computer hardware brand wants to have their own RGB software, if you get parts from two different brands you can't really synchronize the lighting effects. Well, since I had G.Skill TridentZ RAM and a Corsair Lighting Node Pro I wrote some software that would leverage the APIs of both brands to create a unified effect. Problem was Asus's API used C# while Corsair's API used C++, so I wound up writing some unmanaged code in a managed language. Learned my lesson about trying that.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: Shapescape
+        link: https://shapescape.com/
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        sub_title: Gameplay Developer
+        caption: September 2019 - March 2021
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          Creating Minecraft Marketplace content for a large Minecraft Partner.
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          asdf
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
