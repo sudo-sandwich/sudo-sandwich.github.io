@@ -132,7 +132,7 @@ content:
         sub_title: Gameplay Developer
         caption: February 2021 - present
         quote: >
-          Creating Minecraft Marketplace content for a team consisting of three people.
+          Creating Minecraft Marketplace content for a tiny Minecraft Partner.
         description: |
           A friend of mine wanted to try his hand at the Minecraft Marketplace so I am currently his sole dev. He is doing the level design, I am doing the gameplay design, and we have a modeller doing everything else.
 
@@ -144,27 +144,20 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
+        title: University of North Carolina at Charlotte
+        caption: 2018 - present (2023)
         sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          I've been breezing through all of my computer science classes because I've already taught myself most of the material in class, but in my other classes I have learned how to manage deadlines, perfection vs expediency, and teamwork. During my sophmore year I had to withdraw due to medical circumstances, but I have since returned. Thankfully, the only result of the withdrawal was graduating a year later than I would have otherwise.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      I'm primarily a coder and a gamer. Most of my time is spent doing one of those two things. I like pretty much all genres of games and I have played a *lot* of different games. My other interests include:
+      - Frisbee golf
+      - Camping
+      - Biking
+      - Hiking
 
 # Footer
 footer_show_references: true
