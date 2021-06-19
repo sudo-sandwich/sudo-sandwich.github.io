@@ -52,7 +52,14 @@ about_content: | # this will include new lines to allow paragraphs
 
   I have worked with several Minecraft Marketplace creators as the primary dev on multiple projects, where I learned leadership and communication skills. During my time working on Minecraft Marketplace content I developed a C# library that automates much of the workload, which is still in active development today.
 
-  I am most skilled in C#.
+  **Technical Skills**
+  - C#
+  - Java
+  - Python
+  - Lua
+  - Unity
+  - AWS
+  - Git
 
 content:
   - title: Projects # Title for the section
