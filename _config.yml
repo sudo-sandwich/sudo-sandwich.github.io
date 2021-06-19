@@ -79,7 +79,7 @@ content:
         quote: >
           Automate many aspects of Minecraft addon creation.
         description: | # this will include new lines to allow paragraphs
-          I started this project during a fit of rage while learning how to create Minecraft addons. A lot of the design decisions made for Bedrock's component based system seemed pretty were irritating to work with, which prompted me to create this library so I wouldn't have to deal with it. Most of my Minecraft development happens with Bedrock.NET and it has grown to a point where multiple developers and studios are using it. There have been 5 projects released on the marketplace either fully or partially developed using Bedrock.NET, with several more nearing the end of development.
+          I started this project during a fit of rage while learning how to create Minecraft addons. A lot of the design decisions made for Bedrock's component based system are somewhat irritating to work with, which prompted me to create this library so I wouldn't have to deal with it. Most of my Minecraft development happens with Bedrock.NET and it has grown to a point where multiple developers and studios are using it. There have been 5 projects released on the marketplace either fully or partially developed using Bedrock.NET, with several more nearing the end of development.
       - layout: top-middle
         title: BSP Dungeon Generator
         link: https://github.com/sudo-sandwich/BSPDungeonGenerator
